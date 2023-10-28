@@ -1,0 +1,36 @@
+name: banking_app
+description: Banking Application
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  hive: ^2.2.3
+  flutter_inappwebview:
+  url_launcher:
+  overlay_support: ^2.1.0
+  http:
+  firebase_core: ^2.1.1
+  firebase_messaging: ^14.2.2
+  flutter_local_notifications: ^9.8.0+1
+  hive_flutter: ^1.1.0
+  in_app_review:
+  dio:
+  shared_preferences:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
